@@ -19166,12 +19166,21 @@ textarea[resize='horizontal']
     margin-right: -1rem; 
     margin-left: -1rem;
 }
+.navbar-vertical .navbar-nav .nav-link+.navbar-nav
+{
+    margin-right: 0rem;
+    margin-left: 0rem;
+}
 .navbar-vertical .navbar-nav .nav-link
 {
     font-size: .9rem; 
 
     padding-right: 1rem;
     padding-left: 1rem;
+}
+.navbar-vertical .navbar-nav .nav-link+.navbar-nav .nav-link
+{
+    padding: .65rem 1.5rem .65rem 3rem;
 }
 .navbar-vertical .navbar-nav .nav-link.active
 {
@@ -19590,6 +19599,10 @@ textarea[resize='horizontal']
     .navbar-vertical.navbar-expand-md .navbar-nav .nav .nav .nav-link
     {
         padding-left: 4.5rem;
+    }
+    .navbar-vertical.navbar-expand-md .navbar-nav .nav-link+.navbar-nav .nav-link
+    {
+        padding: .65rem 1.5rem .65rem 3rem;
     }
     .navbar-vertical.navbar-expand-md .navbar-brand
     {
